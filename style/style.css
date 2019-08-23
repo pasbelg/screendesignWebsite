@@ -1,0 +1,237 @@
+/*Google Font Import*/
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+
+html, body {
+	font-family: 'Source Code Pro', monospace;
+	background: black;
+	position: relative;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+#logo{
+	position: absolute;
+	margin:15px;
+	height: 100px;
+}
+.banner {
+	width:100%;
+	height: 350px;
+}
+#bannerStart{
+	height: 600px;
+}
+#navigation{
+	margin:auto;
+	width: 90%;
+	border: solid #cccccc;
+	border-width:13px 0;
+	list-style:none;
+	padding:0;
+	text-align:center;
+}
+#navigation li{
+	display:inline;
+}
+#navigation a{
+	display:inline-block;
+	width:15vw;
+	height: 5vh;
+	background-repeat: no-repeat;
+	background-size: contain, cover;
+	background-position: center;
+	background-color: #cccccc;
+	padding:10px;
+	margin: 2vw;
+	color: #cccccc;
+	transition: 0.3s;
+}
+#b182{
+	background-image: url("../media/main/b182Logo.png");
+}
+#b182:hover{
+	background-color: #F3F315;
+}
+#gnr{
+	background-image: url("../media/main/gnrLogo.png");
+}
+#gnr:hover{
+	background-color: #A85400;
+}
+#m{
+	background-image: url("../media/main/mLogo.png");
+}
+#m:hover{
+	background-color: rgb(255, 45, 171);
+}
+.section{
+	border:solid #cccccc;
+	border-width:0 0 10px 0;
+	padding:50px;
+	font-size: 1.1vw;
+}
+.section h2{
+	font-size: 2.5vw;
+}
+
+
+.infotext {
+	width:50%;
+	margin-left:auto;
+	margin-right:0
+}
+
+.infopic {
+	border-radius: 2vw;
+	float:left;
+	width:40%;
+	height:20%;
+}
+.clear { clear:both; }
+
+#content-wrap {
+	color: #cccccc;
+	margin:50px auto;
+	min-height:100%;
+	width:70%;
+	position: relative;
+	/*and you need to add this */
+	padding-bottom:50px;
+	/* Höhe des Footers */
+}
+.datecontainer{
+	width:100%;
+	text-align:center;
+}
+.datecontainer .date{
+	text-align:right;
+	width:20%;
+	display:inline-block; 
+}
+.datecontainer .day{
+	font-size: 3vw;
+}
+.datecontainer .month{
+	font-size: 1.5vw;
+}
+
+.bigAlbContainer{
+	display: inline-block;
+	width: 100%;
+	border:solid #cccccc;
+	border-width:0 0 3px 0;
+	padding-bottom: 20px;
+}
+.bigAlbContainer a{
+	color:#cccccc;
+}
+.coverDescContainer{
+	float: left;
+	width:40%;
+}
+.bigCoverImg{
+	width:80%;
+	margin:5% auto;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.smallCoverImg{
+	display: inline-block;
+	border: 0.1vw solid white;
+	margin: 1%;
+	width:20%;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.responsiveImg:after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+  }
+.albDetails{
+	text-align: right;
+	width:80%;
+	margin:5% auto 10% auto;
+}
+.playerContainer{
+	float: right; 
+	width: 60%;
+}
+.descriptionContainer{
+	width: 100%;
+}
+.player{		
+	padding:6%;
+}
+.player iframe{	
+	border: 0;
+	width: 100%;
+	height:180px;
+}
+
+.description{
+	padding:2%;
+	text-align: justify;
+}
+
+.smallAlbContainer{
+	text-align: center;
+	margin-top: 20px;
+	width: 100%;
+}
+
+.coverRow{
+	margin: auto;
+	width:100%;
+}
+
+#footer {
+	color: #cccccc;
+	text-align: center;
+	background:#202020;
+	border-top:1px solid white;
+	height:100px;
+	width:100%;
+	margin-top: -50px;
+}
+#footer-content{
+	margin-top: 30px;
+}
+#footer-content a,#footer-content a:visited,#footer-content a:hover,#footer-content a:active {
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	position: relative;
+	transition: 0.5s color ease;
+	text-decoration: none;
+	font-size: 25px;
+	color: #cccccc;
+	margin-right: 50px;
+}
+#footer-content a:hover {
+	color: rgb(255, 30, 0);
+}
+#footer-content a.before:before,#footer-content a.after:after {
+	content: "";
+	transition: 0.5s all ease;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	position: absolute;
+}
+#footer-content a.before:before {
+	top: -0.25em;
+}
+#footer-content a.after:after {
+	bottom: -0.25em;
+}
+#footer-content a.before:before,#footer-content a.after:after {
+	height: 5px;
+	height: 0.20rem;
+	width: 0;
+	background: rgb(238, 28, 0);
+}
+#footer-content a:after {
+	left: 0;
+}
+#footer-content a.before:hover:before,#footer-content a.after:hover:after {
+	width: 100%;
+}
