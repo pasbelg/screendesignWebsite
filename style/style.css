@@ -11,19 +11,19 @@ html, body {
 }
 #logo{
 	position: absolute;
-	margin:15px;
-	height: 100px;
+	margin:1vh;
+	height: 10vh;
 }
 .banner {
 	text-align:center; 
 	display:table;
     width:100%;
-	height: 350px;
-	font-size: 2vw;
+	height: 100%;
+	font-size: calc(1em + 1vw);
 	color:white;
 }
 #bannerStart{
-	height: 600px;
+	height:40vw;
 }
 #navigation{
 	margin:auto;
@@ -71,11 +71,11 @@ html, body {
 .section{
 	border:solid #cccccc;
 	border-width:0 0 10px 0;
-	padding:50px;
-	font-size: 1.1vw;
+	padding:3vw;
+	font-size: calc(1em + 0.1vw);
 }
 .section h2{
-	font-size: 2.5vw;
+	font-size: calc(1em + 0.7vw);
 }
 
 
@@ -207,9 +207,9 @@ html, body {
 	position: relative;
 	transition: 0.5s color ease;
 	text-decoration: none;
-	font-size: 25px;
+	font-size: calc(1em + 0.5vw);
 	color: #cccccc;
-	margin-right: 50px;
+	margin-right: 2vw;
 }
 #footer-content a:hover {
 	color: rgb(255, 30, 0);
