@@ -15,8 +15,12 @@ html, body {
 	height: 100px;
 }
 .banner {
-	width:100%;
+	text-align:center; 
+	display:table;
+    width:100%;
 	height: 350px;
+	font-size: 2vw;
+	color:white;
 }
 #bannerStart{
 	height: 600px;
