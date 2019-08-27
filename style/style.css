@@ -1,7 +1,8 @@
 /*Google Font Import*/
-@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 
-html, body {
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
+html,
+body {
 	font-family: 'Source Code Pro', monospace;
 	background: black;
 	position: relative;
@@ -9,204 +10,240 @@ html, body {
 	margin: 0;
 	padding: 0;
 }
-#logo{
+
+#logo {
 	position: absolute;
-	margin:1vh;
+	margin: 1vh;
 	height: 10vh;
 }
+
 .banner {
-	text-align:center; 
-	display:table;
-    width:100%;
+	text-align: center;
+	display: table;
+	width: 100%;
 	height: 100%;
 	font-size: calc(1em + 1vw);
-	color:white;
+	color: white;
 }
-#bannerStart{
-	height:40vw;
+
+#bannerStart {
+	height: 40vw;
 }
-#navigation{
-	margin:auto;
+
+#navigation {
+	margin: auto;
 	width: 90%;
 	border: solid #cccccc;
-	border-width:13px 0;
-	list-style:none;
-	padding:0;
-	text-align:center;
+	border-width: 13px 0;
+	list-style: none;
+	padding: 0;
+	text-align: center;
 }
-#navigation li{
-	display:inline;
+
+#navigation li {
+	display: inline;
 }
-#navigation a{
-	display:inline-block;
-	width:15vw;
+
+#navigation a {
+	display: inline-block;
+	width: 15vw;
 	height: 5vh;
 	background-repeat: no-repeat;
 	background-size: contain, cover;
 	background-position: center;
 	background-color: #cccccc;
-	padding:10px;
+	padding: 10px;
 	margin: 2vw;
 	color: #cccccc;
 	transition: 0.3s;
 }
-#b182{
+
+#b182 {
 	background-image: url("../media/main/b182Logo.png");
 }
-#b182:hover{
+
+#b182:hover {
 	background-color: #F3F315;
 }
-#gnr{
+
+#gnr {
 	background-image: url("../media/main/gnrLogo.png");
 }
-#gnr:hover{
+
+#gnr:hover {
 	background-color: #A85400;
 }
-#m{
+
+#m {
 	background-image: url("../media/main/mLogo.png");
 }
-#m:hover{
+
+#m:hover {
 	background-color: rgb(255, 45, 171);
 }
-.section{
-	border:solid #cccccc;
-	border-width:0 0 10px 0;
-	padding:3vw;
+
+.section {
+	border: solid #cccccc;
+	border-width: 0 0 10px 0;
+	padding: 3vw;
 	font-size: calc(1em + 0.1vw);
 }
-.section h2{
+
+.section h2 {
 	font-size: calc(1em + 0.7vw);
 }
 
-
 .infotext {
-	width:50%;
-	margin-left:auto;
-	margin-right:0
+	width: 50%;
+	margin-left: auto;
+	margin-right: 0
 }
 
 .infopic {
 	border-radius: 2vw;
-	float:left;
-	width:40%;
-	height:20%;
+	float: left;
+	width: 40%;
+	height: 20%;
 }
-.clear { clear:both; }
+
+.clear {
+	clear: both;
+}
 
 #content-wrap {
 	color: #cccccc;
-	margin:50px auto;
-	min-height:100%;
-	width:70%;
+	margin: 50px auto;
+	min-height: 100%;
+	width: 70%;
 	position: relative;
 	/*and you need to add this */
-	padding-bottom:50px;
+	padding-bottom: 50px;
 	/* Höhe des Footers */
 }
-.datecontainer{
-	width:100%;
-	text-align:center;
+
+.datecontainer {
+	width: 100%;
+	text-align: center;
 }
-.datecontainer .date{
-	text-align:right;
-	width:20%;
-	margin-right:30px;
-	display:inline-block; 
+
+.datecontainer .date {
+	text-align: right;
+	width: 20%;
+	margin-right: 30px;
+	display: inline-block;
 }
-.datecontainer .day{
+
+.datecontainer .day {
 	font-size: 3vw;
 }
-.datecontainer .month{
+
+.datecontainer .month {
 	font-size: 1.5vw;
 }
-.datecontainer .location{
+
+.datecontainer .location {
 	white-space: nowrap;
 	font-size: 1.5vw;
 }
 
-.bigAlbContainer{
+.bigAlbContainer {
 	display: inline-block;
 	width: 100%;
-	border:solid #cccccc;
-	border-width:0 0 3px 0;
+	border: solid #cccccc;
+	border-width: 0 0 3px 0;
 	padding-bottom: 20px;
 }
-.bigAlbContainer a{
-	color:#cccccc;
+
+.bigAlbContainer a {
+	color: #cccccc;
 }
-.coverDescContainer{
+
+.coverDescContainer {
 	float: left;
-	width:40%;
+	width: 40%;
 }
-.bigCoverImg{
-	width:80%;
-	margin:5% auto;
+
+.bigCoverImg {
+	width: 80%;
+	margin: 5% auto;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
-.smallCoverImg{
+
+.smallCoverImg {
 	display: inline-block;
 	border: 0.1vw solid white;
 	margin: 1%;
-	width:20%;
+	width: 20%;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
+
 .responsiveImg:after {
 	content: "";
 	display: block;
 	padding-bottom: 100%;
-  }
-.albDetails{
-	text-align: right;
-	width:80%;
-	margin:5% auto 10% auto;
-}
-.playerContainer{
-	float: right; 
-	width: 60%;
-}
-.descriptionContainer{
-	width: 100%;
-}
-.player{		
-	padding:6%;
-}
-.player iframe{	
-	border: 0;
-	width: 100%;
-	height:180px;
 }
 
-.description{
-	padding:2%;
+.albDetails {
+	text-align: right;
+	width: 80%;
+	margin: 5% auto 10% auto;
+}
+
+.playerContainer {
+	float: right;
+	width: 60%;
+}
+
+.descriptionContainer {
+	width: 100%;
+}
+
+.player {
+	padding: 6%;
+}
+
+.player iframe {
+	border: 0;
+	width: 100%;
+	height: 180px;
+}
+
+.description {
+	padding: 2%;
 	text-align: justify;
 }
 
-.smallAlbContainer{
+.smallAlbContainer {
 	text-align: center;
 	margin-top: 20px;
 	width: 100%;
 }
 
-.coverRow{
+.coverRow {
 	margin: auto;
-	width:100%;
+	width: 100%;
 }
 
 #footer {
 	color: #cccccc;
 	text-align: center;
-	background:#202020;
-	border-top:1px solid white;
-	height:100px;
-	width:100%;
+	background: #202020;
+	border-top: 1px solid white;
+	height: 100px;
+	width: 100%;
 	margin-top: -50px;
 }
-#footer-content{
+
+#footer-content {
 	margin-top: 30px;
 }
-#footer-content a,#footer-content a:visited,#footer-content a:hover,#footer-content a:active {
+
+#footer-content a,
+#footer-content a:visited,
+#footer-content a:hover,
+#footer-content a:active {
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	position: relative;
@@ -216,31 +253,41 @@ html, body {
 	color: #cccccc;
 	margin-right: 2vw;
 }
+
 #footer-content a:hover {
 	color: rgb(255, 30, 0);
 }
-#footer-content a.before:before,#footer-content a.after:after {
+
+#footer-content a.before:before,
+#footer-content a.after:after {
 	content: "";
 	transition: 0.5s all ease;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 	position: absolute;
 }
+
 #footer-content a.before:before {
 	top: -0.25em;
 }
+
 #footer-content a.after:after {
 	bottom: -0.25em;
 }
-#footer-content a.before:before,#footer-content a.after:after {
+
+#footer-content a.before:before,
+#footer-content a.after:after {
 	height: 5px;
 	height: 0.20rem;
 	width: 0;
 	background: rgb(238, 28, 0);
 }
+
 #footer-content a:after {
 	left: 0;
 }
-#footer-content a.before:hover:before,#footer-content a.after:hover:after {
+
+#footer-content a.before:hover:before,
+#footer-content a.after:hover:after {
 	width: 100%;
 }
