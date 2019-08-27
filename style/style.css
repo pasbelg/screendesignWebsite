@@ -110,12 +110,17 @@ html, body {
 .datecontainer .date{
 	text-align:right;
 	width:20%;
+	margin-right:30px;
 	display:inline-block; 
 }
 .datecontainer .day{
 	font-size: 3vw;
 }
 .datecontainer .month{
+	font-size: 1.5vw;
+}
+.datecontainer .location{
+	white-space: nowrap;
 	font-size: 1.5vw;
 }
 
